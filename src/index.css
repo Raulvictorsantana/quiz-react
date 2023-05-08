@@ -12,16 +12,26 @@ body,
  }
  img{
   max-width: 100%;
+  margin-top: 20px;
 
  }
   button{
+    margin-top: 10px;
+    color: #1c1c1c;
+    width: 60px;
+    height: 25px;
     font-weight: bold;
-    font-size: 1,2rem;
+    font-size: 1rem;
     cursor: pointer;
     padding: 8rem, 1.5rem;
-    background-color: linear-gradient(
-        90deg,
+    background: linear-gradient(
+       90deg,
       rgba(132,53,222,1) 0%,
-      rgba(184,84,232,1)100%)
-    };
+      rgba(184,84,232,1)100%);
+      border-radius: 3px;
+      border: none;
+      
+    }
+
+    
     
