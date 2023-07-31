@@ -14,7 +14,12 @@ const quisReducer = (state, action) => {
 
     switch (action.type) {
         case "CHANGE_STATE":
-            return state;
+            return {
+                ...state,
+                gameStage: STAGES[1],
+            };
+
+
 
         default:
             return state;

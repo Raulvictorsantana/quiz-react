@@ -7,7 +7,7 @@ import "./Welcome.css";
 
 
 const Welcome = () => {
-  const [quizState, dispatch] = useContext(QuizContext);
+  const [dispatch, quizState] = useContext(QuizContext);
 
   return (
     <div className="welcome">
